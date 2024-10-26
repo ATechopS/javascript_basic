@@ -39,7 +39,7 @@ iam.name="abhi"
 
 // for use symbol in object as a symbol we will use squre bracket in key they will can acces key as a symbol
 
-// console.log(iam);
+ console.log(iam);
 
 // we can treet function as variable
 // it is a way to create a fuction for an object
@@ -52,6 +52,7 @@ function greetingg (){
     console.log(`hello ${iam.name} your age is ${iam.age} and your email id is ${iam.email} `);
 } 
 
+// here declearing function for a object we can use this for acces object data
 iam.greeting = function (){
   console.log(`hello ${this.name} is ${this.age} and your email id is ${this.email} `);
 } 
